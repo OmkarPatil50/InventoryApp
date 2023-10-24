@@ -1,0 +1,55 @@
+.product-page-top-bar {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 20px;
+  margin: 0;
+  width: 80vw;
+}
+
+.select-tag {
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.checkbox-top-bar {
+  font-size: 18px;
+}
+
+.table-products {
+  background-color: var(--secondary-color);
+  width: 95%;
+  border: 1px solid var(--primary-color);
+}
+
+th {
+  border: 1px solid var(--primary-color);
+  padding: 20px;
+  background-color: var(--lynx-gray-color);
+}
+
+td {
+  border: 1px solid var(--primary-color);
+  text-align: center;
+  padding: auto;
+}
+
+.products-page-img {
+  width: 100px;
+  height: 100px;
+}
+.btn-new {
+  padding: 7.5px 15px;
+  background-color: royalblue;
+  border: none;
+  color: var(--secondary-color);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.product-name:hover {
+  color: var(--action-color);
+  text-decoration: underline;
+}

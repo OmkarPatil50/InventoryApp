@@ -1,0 +1,5 @@
+.dashboard-card:hover {
+  background-color: var(--lynx-gray-color);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}

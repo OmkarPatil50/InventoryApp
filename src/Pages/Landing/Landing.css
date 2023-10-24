@@ -1,0 +1,50 @@
+.main-page {
+  position: relative;
+  top: 0;
+  left: 250px;
+  height: 100vh;
+}
+
+.sub-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dashboard-card {
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.dashboard-card-count-delivered,
+.dashboard-card-count-low,
+.dashboard-card-count-total,
+.dashboard-card-heading {
+  font-size: 28px;
+  margin: 5px;
+  font-weight: 400;
+}
+
+.dashboard-card-count-total {
+  color: rgb(5, 180, 5);
+}
+
+.dashboard-card-count-delivered {
+  color: orange;
+}
+
+.dashboard-card-count-low {
+  color: red;
+}
+
+.page-heading {
+  font-size: 24px;
+}

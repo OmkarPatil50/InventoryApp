@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #202020;
+  --secondary-color: #ffffff;
+  --action-color: #3b82f6;
+  --grey-color: #9a9a9a;
+  --black-color: #282828;
+  --white-color: #fff;
+  --lynx-white-color: #f7f7f7;
+  --violet-color: #5348c7;
+  --lynx-gray-color: #c5c5c5;
+  --font: "Open Sans", sans-serif;
+  --xxl-size: 4rem;
+  --xl-size: 2.5rem;
+  --l-size: 2rem;
+  --m-size: 1.5rem;
+  --s-size: 1rem;
+  --xs-size: 0.5rem;
+  --xl-font: 3rem;
+  --light-weight: 300;
+  --regular-weight: 400;
+  --semibold-weight: 600;
+  --bold-weight: 700;
+  --black-weight: 900;
+}
+.form-page {
+  position: relative;
+  top: 100px;
+  left: 250px;
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.new-product-form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  padding: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  width: 500px;
+}
+
+.new-product-form label,
+.new-product-form input,
+.new-product-form select {
+  align-self: center;
+  width: 90%;
+}
+
+.new-product-form input,
+.new-product-form select {
+  padding: 10px;
+}
+.new-product-form input {
+  font-size: 16px;
+}
+
+.new-product-form select {
+  margin: 0;
+}
+.new-product-form label {
+  font-size: 16px;
+  padding: 10px 0 5px 0;
+}
+
+.new-form-btn {
+  background-color: royalblue;
+  border: none;
+  font-size: 20px;
+  padding: 7.5px 15px;
+  margin: 10px 0 0 0;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
